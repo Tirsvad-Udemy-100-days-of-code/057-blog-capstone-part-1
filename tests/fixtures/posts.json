@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "First post", "subtitle": "Hello world", "body": "Body of the first post."},
+  {"id": 2, "title": "Café på Strøget", "subtitle": "Æbleskiver og kaffe ☕", "body": "Dansk tekst: blåbærgrød."},
+  {"id": 3, "title": "Third post", "subtitle": "Last one", "body": "Body of the third post."}
+]

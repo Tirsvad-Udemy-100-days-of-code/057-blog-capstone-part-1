@@ -3,8 +3,7 @@
 APP_NAME = "Blog Capstone Part 1"
 """@brief Display name of the application."""
 
-# Placeholder: MIL-002 replaces it with the real npoint bin id.
-POSTS_API_URL = "https://api.npoint.io/REPLACE_WITH_BIN_ID"
+POSTS_API_URL = "https://api.npoint.io/c790b4d5cab58020d391"
 """@brief URL of the JSON endpoint that serves the blog posts."""
 
 REQUEST_TIMEOUT_SECONDS = 10
