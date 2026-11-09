@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | pending |
-| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted after [RC-003] (autonomous, not independent) | pending |
+| 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [5fefc13] |
+| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted after [RC-003] (autonomous, not independent) | [5fefc13] |
 
 ---
 
@@ -87,3 +87,4 @@ A No-Go on a phase moves every later phase by the time needed to fix it; the end
 [MIL-002]: ./milestones/mil-002-templating-app.md
 [MIL-003]: ./milestones/mil-003-documentation-and-wiki.md
 [RC-003]: ./sqa/reviews/rc-003-project-plan.md
+[5fefc13]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/5fefc139d1df1e190ba76b4efb57489eaed0c1c4

@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | pending |
-| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted after [RC-005] (autonomous, not independent) | pending |
+| 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [5fefc13] |
+| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted after [RC-005] (autonomous, not independent) | [5fefc13] |
 
 ---
 
@@ -76,3 +76,4 @@ The Flask application in `src/` with Jinja templates and static assets, and a py
 [BC-001]: ../business-case.md
 [MIL-001]: ./mil-001-setup-and-repository.md
 [RC-005]: ./../sqa/reviews/rc-005-mil-002.md
+[5fefc13]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/5fefc139d1df1e190ba76b4efb57489eaed0c1c4
