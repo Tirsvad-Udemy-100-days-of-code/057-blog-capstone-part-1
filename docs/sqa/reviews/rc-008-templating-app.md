@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [227a5fb] |
 
 ---
 
@@ -58,3 +58,4 @@ Go — no criterion fails. Autonomous mode: AI as stand-in for S01, not independ
 ---
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [PY-002]: ../../../src/blog_capstone/
+[227a5fb]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/227a5fbb8a022e447d5509d1353edc55f0287627
