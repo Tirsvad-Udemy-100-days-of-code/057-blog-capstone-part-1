@@ -1,8 +1,50 @@
 # Local secrets (never committed, never read by the project)
 .env
 
-# Python virtual environment
-.venv/
-
 # AI prompt log (public repository)
 /docs/ai-prompts/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Flask
+instance/
+.webassets-cache
+
+# Doxygen output
+/docs/doxygen/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
