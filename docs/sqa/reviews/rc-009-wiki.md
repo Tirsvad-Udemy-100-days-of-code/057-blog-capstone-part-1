@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9eacf46] |
-| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Delta re-review of criterion 14 after publication: Go (autonomous, not independent) | pending |
+| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Delta re-review of criterion 14 after publication: Go (autonomous, not independent) | [6dc8fd1] |
 
 ---
 
@@ -58,3 +58,4 @@ Go — delta re-review of criterion 14 after publication: it passes, so the cond
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [WIKI-001]: ../../wiki/
 [9eacf46]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/9eacf463ce13f1309ed1c414e4092b5b757c8b1d
+[6dc8fd1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/6dc8fd1507404043f19dac0054b1830693777598
