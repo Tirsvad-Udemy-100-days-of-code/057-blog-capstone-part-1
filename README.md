@@ -8,6 +8,7 @@ Day 57 of Udemy's "100 Days of Code: The Complete Python Pro Bootcamp": a small 
 - [Requirements](#-requirements)
 - [Setup](#-setup)
 - [Run](#-run)
+- [Lecture steps](#-lecture-steps)
 - [Tests](#-tests)
 - [License](#-license)
 - [Links](#-links)
@@ -88,6 +89,18 @@ python -m blog_capstone
 | `/blog/<num>` | The lecture's blog page: every post listed with a Jinja `for` loop; the number is logged by the server |
 
 The posts come from the course's n:Point JSON bin; its address is `POSTS_API_URL` in `src/blog_capstone/constants.py`.
+
+## 🖼️ Lecture steps
+
+Each step has a screenshot, taken in a Docker container with `bash docs/screenshots/run.sh`. The [wiki][documentation] explains what each step teaches, in English, Danish and Bahasa Malaysia.
+
+| Step | What it shows | Screenshot |
+| --- | --- | --- |
+| 1. Starter site | The styled site with the two placeholder posts of the starting files | ![Starter site](docs/images/step-1-starter-site.png) |
+| 2. Jinja loops and conditions | The blog page: every post listed with a `for` loop, an `if` for the empty case | ![Blog page](docs/images/step-2-blog-for-loop.png) |
+| 3. URL building | `url_for('get_blog', num=1)` and the captured parameter, here `/blog/7` | ![URL parameter](docs/images/step-3-url-parameter.png) |
+| 4. Home page | Title, subtitle and a "Read" link for every post | ![Home page](docs/images/step-4-home-page.png) |
+| 5. Post page | One post with title, subtitle and body at `/post/<blog_id>` | ![Post page](docs/images/step-5-post-page.png) |
 
 ## 🧪 Tests
 
