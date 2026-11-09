@@ -30,9 +30,9 @@ Schedule the three phases that deliver the Day 57 "Blog Capstone Project Part 1 
 
 | Gateway | Document | Window | Decision date | Owner | Stories | Main deliverable | Milestone |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Setup and repository | [MIL-001] | 2026-11-09 to 2026-11-10 | 2026-11-10 | S01 | none (technical tasks) | Project skeleton, environment instructions, described repository | not yet synced |
-| Templating app | [MIL-002] | 2026-11-10 to 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Flask app and offline pytest suite | not yet synced |
-| Documentation and wiki | [MIL-003] | 2026-11-12 to 2026-11-13 | 2026-11-13 | S01 | none (technical tasks) | README and en/da/ms wiki with screenshots | not yet synced |
+| Setup and repository | [MIL-001] | 2026-11-09 to 2026-11-10 | 2026-11-10 | S01 | none (technical tasks) | Project skeleton, environment instructions, described repository | [MIL-001](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/milestone/376) |
+| Templating app | [MIL-002] | 2026-11-10 to 2026-11-12 | 2026-11-12 | S01 | none (technical tasks) | Flask app and offline pytest suite | [MIL-002](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/milestone/377) |
+| Documentation and wiki | [MIL-003] | 2026-11-12 to 2026-11-13 | 2026-11-13 | S01 | none (technical tasks) | README and en/da/ms wiki with screenshots | [MIL-003](https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/milestone/378) |
 
 ```plantuml
 @startgantt

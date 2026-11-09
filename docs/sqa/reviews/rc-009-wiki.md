@@ -9,7 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9eacf46] |
+| 2026-11-09 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [9eacf46] |
+| 2026-11-09 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Delta re-review of criterion 14 after publication: Go (autonomous, not independent) | [6dc8fd1] |
 
 ---
 
@@ -39,21 +40,22 @@
 | 11 | Every page starts with the language line, with the current language in bold and a link to the same page in each other language | Pass | First line of every page names the current language in bold and links to the others; checked by script. |
 | 12 | A page in a language other than English is named `<Page>-<code>.md`, with a BCP 47 code; English has no suffix | Pass | Home-da.md and Home-ms.md style names, BCP 47 codes. |
 | 13 | Code blocks, commands, file names and IDs stay in English in every language | Pass | A script confirmed the code blocks and URLs are identical to the English pages; commands and identifiers stay in English. |
-| 14 | The sidebar, every page and every link were checked on the published wiki after the change, not only in the repository | Pending | The published wiki does not exist until this change is merged; it is checked after the merge and this record is then updated. |
+| 14 | The sidebar, every page and every link were checked on the published wiki after the change, not only in the repository | Pass | After the merge the publish workflow completed; the host lists 22 wiki pages (7 per language plus _Sidebar); Home, Home-da, Home-ms and the sidebar link to existing pages; the five screenshot URLs return HTTP 200; a Bahasa Malaysia page returns HTTP 200. |
 | 15 | A change to the layout rules (sections, order, naming) is made in the generator or template and in this checklist's source rules together | N-A | Optional; no layout rules are changed. |
 | 16 | The wiki folder (`docs/wiki/`) is flat: every page, `Home.md` and `_Sidebar.md` included, is directly in it, and languages are told apart by file name, never by a subfolder | Pass | All 22 files are directly in docs/wiki/. |
 
 ## Overall Verdict
 
-Go-with-conditions — no Mandatory criterion fails; criterion 14 is Pending until the wiki is published. The condition is closed by a delta re-review after the merge. Autonomous mode: AI as stand-in for S01, not independent.
+Go — delta re-review of criterion 14 after publication: it passes, so the condition of the first review is closed. No Mandatory criterion fails. Autonomous mode: AI as stand-in for S01, not independent.
 
 ## Action Items
 
 | Action | Owner | Due |
 | --- | --- | --- |
-| Check the published wiki, sidebar and links after the merge and record a delta re-review for criterion 14 | S01 | 2026-11-13 |
+| None open (the published-wiki check is done) | S01 | — |
 
 ---
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [WIKI-001]: ../../wiki/
 [9eacf46]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/9eacf463ce13f1309ed1c414e4092b5b757c8b1d
+[6dc8fd1]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/6dc8fd1507404043f19dac0054b1830693777598
