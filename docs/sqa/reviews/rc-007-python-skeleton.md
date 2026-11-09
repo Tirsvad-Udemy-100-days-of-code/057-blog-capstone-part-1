@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-11-09 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [41517e0] |
 
 ---
 
@@ -58,3 +58,4 @@ Go — no Mandatory criterion fails. Criterion 12 is Optional and N-A. Autonomou
 ---
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [PY-001]: ../../../src/blog_capstone/
+[41517e0]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/057-blog-capstone-part-1/commit/41517e0f492a65f4f41393de88b51b59e856d7d5
