@@ -1,13 +1,9 @@
 """@brief Post source that reads a JSON API over HTTP."""
 
-import logging
-
 import requests
 
 from blog_capstone.domain.errors import PostSourceUnavailableError
 from blog_capstone.domain.post import Post
-
-logger = logging.getLogger(__name__)
 
 
 class ApiPostSource:
@@ -44,10 +40,8 @@ class ApiPostSource:
                     payload = self._get_json(session)
             return [self._to_post(item) for item in payload]
         except requests.RequestException as error:
-            logger.error("Posts request to %s failed: %s", self._url, error)
             raise PostSourceUnavailableError("Posts API request failed") from error
         except (ValueError, KeyError, TypeError) as error:
-            logger.error("Posts API returned unusable data: %r", error)
             raise PostSourceUnavailableError("Posts API returned bad data") from error
 
     def _get_json(self, session: requests.Session) -> list[dict[str, object]]:
