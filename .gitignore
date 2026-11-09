@@ -1,0 +1,8 @@
+# Local secrets (never committed, never read by the project)
+.env
+
+# Python virtual environment
+.venv/
+
+# AI prompt log (public repository)
+/docs/ai-prompts/
