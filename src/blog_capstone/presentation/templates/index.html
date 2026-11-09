@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+{% for post in posts %}
+<div class="content">
+    <div class="card">
+        <h2>{{ post.title }}</h2>
+        <p class="text">{{ post.subtitle }}</p>
+        <a href="{{ url_for('show_post', blog_id=post.id) }}">Read</a>
+    </div>
+</div>
+{% endfor %}
+<div class="content">
+    <a href="{{ url_for('get_blog', num=1) }}">Blog page</a>
+</div>
+{% endblock %}

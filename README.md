@@ -75,7 +75,19 @@ doxygen Doxyfile
 
 ## ▶️ Run
 
-The application is added in milestone MIL-002; this section is completed there.
+With the environment active, start the development server and open <http://127.0.0.1:5000>:
+
+```bash
+python -m blog_capstone
+```
+
+| Address | What it shows |
+| --- | --- |
+| `/` | The home page: title and subtitle of every post, each with a "Read" link |
+| `/post/<blog_id>` | One post with title, subtitle and body; an unknown id gives 404 |
+| `/blog/<num>` | The lecture's blog page: every post listed with a Jinja `for` loop; the number is logged by the server |
+
+The posts come from the course's n:Point JSON bin; its address is `POSTS_API_URL` in `src/blog_capstone/constants.py`.
 
 ## 🧪 Tests
 
